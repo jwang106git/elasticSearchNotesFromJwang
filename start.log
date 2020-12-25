@@ -1,0 +1,1051 @@
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+[2020-12-22T11:13:11,998][INFO ][o.e.e.NodeEnvironment    ] [7pPltmt] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.9gb], net total_space [465.7gb], types [apfs]
+[2020-12-22T11:13:12,002][INFO ][o.e.e.NodeEnvironment    ] [7pPltmt] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-22T11:13:12,004][INFO ][o.e.n.Node               ] [7pPltmt] node name derived from node ID [7pPltmt3RoCSTlTqH1ePfw]; set [node.name] to override
+[2020-12-22T11:13:12,005][INFO ][o.e.n.Node               ] [7pPltmt] version[6.8.6], pid[26147], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-22T11:13:12,005][INFO ][o.e.n.Node               ] [7pPltmt] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-9144379878587282996, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-22T11:13:12,324][INFO ][o.e.e.NodeEnvironment    ] [GNKM43O] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.9gb], net total_space [465.7gb], types [apfs]
+[2020-12-22T11:13:12,328][INFO ][o.e.e.NodeEnvironment    ] [GNKM43O] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-22T11:13:12,332][INFO ][o.e.n.Node               ] [GNKM43O] node name derived from node ID [GNKM43OhTkSgzK8H7OUOuw]; set [node.name] to override
+[2020-12-22T11:13:12,332][INFO ][o.e.n.Node               ] [GNKM43O] version[6.8.6], pid[26149], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-22T11:13:12,332][INFO ][o.e.n.Node               ] [GNKM43O] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-7829031184896298777, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-22T11:13:13,566][INFO ][o.e.e.NodeEnvironment    ] [Hsh4Uks] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.9gb], net total_space [465.7gb], types [apfs]
+[2020-12-22T11:13:13,575][INFO ][o.e.e.NodeEnvironment    ] [Hsh4Uks] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-22T11:13:13,582][INFO ][o.e.n.Node               ] [Hsh4Uks] node name derived from node ID [Hsh4Uks0QT24bJ-xV3BJ2g]; set [node.name] to override
+[2020-12-22T11:13:13,584][INFO ][o.e.n.Node               ] [Hsh4Uks] version[6.8.6], pid[26148], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-22T11:13:13,637][INFO ][o.e.n.Node               ] [Hsh4Uks] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-3337954165829922314, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-22T11:13:14,139][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [aggs-matrix-stats]
+[2020-12-22T11:13:14,139][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [analysis-common]
+[2020-12-22T11:13:14,139][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [ingest-common]
+[2020-12-22T11:13:14,139][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [ingest-geoip]
+[2020-12-22T11:13:14,140][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [ingest-user-agent]
+[2020-12-22T11:13:14,140][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [lang-expression]
+[2020-12-22T11:13:14,155][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [lang-mustache]
+[2020-12-22T11:13:14,155][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [lang-painless]
+[2020-12-22T11:13:14,156][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [mapper-extras]
+[2020-12-22T11:13:14,156][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [parent-join]
+[2020-12-22T11:13:14,156][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [percolator]
+[2020-12-22T11:13:14,156][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [rank-eval]
+[2020-12-22T11:13:14,156][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [reindex]
+[2020-12-22T11:13:14,156][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [repository-url]
+[2020-12-22T11:13:14,157][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [transport-netty4]
+[2020-12-22T11:13:14,158][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [tribe]
+[2020-12-22T11:13:14,158][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded plugin [analysis-ik]
+[2020-12-22T11:13:14,731][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [aggs-matrix-stats]
+[2020-12-22T11:13:14,732][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [analysis-common]
+[2020-12-22T11:13:14,732][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [ingest-common]
+[2020-12-22T11:13:14,733][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [ingest-geoip]
+[2020-12-22T11:13:14,733][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [ingest-user-agent]
+[2020-12-22T11:13:14,733][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [lang-expression]
+[2020-12-22T11:13:14,734][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [lang-mustache]
+[2020-12-22T11:13:14,734][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [lang-painless]
+[2020-12-22T11:13:14,734][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [mapper-extras]
+[2020-12-22T11:13:14,734][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [parent-join]
+[2020-12-22T11:13:14,735][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [percolator]
+[2020-12-22T11:13:14,735][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [rank-eval]
+[2020-12-22T11:13:14,735][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [reindex]
+[2020-12-22T11:13:14,735][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [repository-url]
+[2020-12-22T11:13:14,735][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [transport-netty4]
+[2020-12-22T11:13:14,735][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [tribe]
+[2020-12-22T11:13:14,736][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded plugin [analysis-ik]
+[2020-12-22T11:13:16,943][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [aggs-matrix-stats]
+[2020-12-22T11:13:16,943][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [analysis-common]
+[2020-12-22T11:13:16,943][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [ingest-common]
+[2020-12-22T11:13:16,944][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [ingest-geoip]
+[2020-12-22T11:13:16,944][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [ingest-user-agent]
+[2020-12-22T11:13:16,944][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [lang-expression]
+[2020-12-22T11:13:16,944][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [lang-mustache]
+[2020-12-22T11:13:16,944][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [lang-painless]
+[2020-12-22T11:13:16,944][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [mapper-extras]
+[2020-12-22T11:13:16,944][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [parent-join]
+[2020-12-22T11:13:16,945][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [percolator]
+[2020-12-22T11:13:16,945][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [rank-eval]
+[2020-12-22T11:13:16,945][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [reindex]
+[2020-12-22T11:13:16,945][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [repository-url]
+[2020-12-22T11:13:16,945][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [transport-netty4]
+[2020-12-22T11:13:16,945][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [tribe]
+[2020-12-22T11:13:16,946][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded plugin [analysis-ik]
+[2020-12-22T11:13:21,851][INFO ][o.e.d.DiscoveryModule    ] [7pPltmt] using discovery type [zen] and host providers [settings]
+[2020-12-22T11:13:22,152][INFO ][o.e.d.DiscoveryModule    ] [GNKM43O] using discovery type [zen] and host providers [settings]
+[2020-12-22T11:13:22,659][INFO ][o.e.n.Node               ] [7pPltmt] initialized
+[2020-12-22T11:13:22,659][INFO ][o.e.n.Node               ] [7pPltmt] starting ...
+[2020-12-22T11:13:22,956][INFO ][o.e.n.Node               ] [GNKM43O] initialized
+[2020-12-22T11:13:22,956][INFO ][o.e.n.Node               ] [GNKM43O] starting ...
+[2020-12-22T11:13:23,011][INFO ][o.e.d.DiscoveryModule    ] [Hsh4Uks] using discovery type [zen] and host providers [settings]
+[2020-12-22T11:13:23,776][INFO ][o.e.n.Node               ] [Hsh4Uks] initialized
+[2020-12-22T11:13:23,777][INFO ][o.e.n.Node               ] [Hsh4Uks] starting ...
+[2020-12-22T11:13:27,918][INFO ][o.e.t.TransportService   ] [7pPltmt] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2020-12-22T11:13:28,196][INFO ][o.e.t.TransportService   ] [GNKM43O] publish_address {127.0.0.1:9301}, bound_addresses {[::1]:9301}, {127.0.0.1:9301}
+[2020-12-22T11:13:29,125][INFO ][o.e.t.TransportService   ] [Hsh4Uks] publish_address {127.0.0.1:9302}, bound_addresses {[::1]:9302}, {127.0.0.1:9302}
+[2020-12-22T11:13:30,978][INFO ][o.e.c.s.MasterService    ] [7pPltmt] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{GRsrOXAjQfKPeD2y4dDSBw}{127.0.0.1}{127.0.0.1:9300}
+[2020-12-22T11:13:30,983][INFO ][o.e.c.s.ClusterApplierService] [7pPltmt] new_master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{GRsrOXAjQfKPeD2y4dDSBw}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{GRsrOXAjQfKPeD2y4dDSBw}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2020-12-22T11:13:30,998][INFO ][o.e.h.n.Netty4HttpServerTransport] [7pPltmt] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2020-12-22T11:13:30,998][INFO ][o.e.n.Node               ] [7pPltmt] started
+[2020-12-22T11:13:31,004][INFO ][o.e.g.GatewayService     ] [7pPltmt] recovered [0] indices into cluster_state
+[2020-12-22T11:13:31,295][INFO ][o.e.c.s.MasterService    ] [7pPltmt] zen-disco-node-join[{GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{nOA-pt1AQ5uGGm54h6Qm7Q}{127.0.0.1}{127.0.0.1:9301}], reason: added {{GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{nOA-pt1AQ5uGGm54h6Qm7Q}{127.0.0.1}{127.0.0.1:9301},}
+[2020-12-22T11:13:31,315][INFO ][o.e.c.s.ClusterApplierService] [GNKM43O] detected_master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{GRsrOXAjQfKPeD2y4dDSBw}{127.0.0.1}{127.0.0.1:9300}, added {{7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{GRsrOXAjQfKPeD2y4dDSBw}{127.0.0.1}{127.0.0.1:9300},}, reason: apply cluster state (from master [master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{GRsrOXAjQfKPeD2y4dDSBw}{127.0.0.1}{127.0.0.1:9300} committed version [3]])
+[2020-12-22T11:13:31,327][INFO ][o.e.c.s.ClusterApplierService] [7pPltmt] added {{GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{nOA-pt1AQ5uGGm54h6Qm7Q}{127.0.0.1}{127.0.0.1:9301},}, reason: apply cluster state (from master [master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{GRsrOXAjQfKPeD2y4dDSBw}{127.0.0.1}{127.0.0.1:9300} committed version [3] source [zen-disco-node-join[{GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{nOA-pt1AQ5uGGm54h6Qm7Q}{127.0.0.1}{127.0.0.1:9301}]]])
+[2020-12-22T11:13:31,330][WARN ][o.e.d.z.ElectMasterService] [7pPltmt] value for setting "discovery.zen.minimum_master_nodes" is too low. This can result in data loss! Please set it to at least a quorum of master-eligible nodes (current value: [-1], total number of master-eligible nodes used for publishing in this round: [2])
+[2020-12-22T11:13:31,341][INFO ][o.e.h.n.Netty4HttpServerTransport] [GNKM43O] publish_address {127.0.0.1:9201}, bound_addresses {[::1]:9201}, {127.0.0.1:9201}
+[2020-12-22T11:13:31,341][INFO ][o.e.n.Node               ] [GNKM43O] started
+[2020-12-22T11:13:32,216][INFO ][o.e.c.s.MasterService    ] [7pPltmt] zen-disco-node-join[{Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{nTDc73RKT3GQxtpKNGJFAg}{127.0.0.1}{127.0.0.1:9302}], reason: added {{Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{nTDc73RKT3GQxtpKNGJFAg}{127.0.0.1}{127.0.0.1:9302},}
+[2020-12-22T11:13:32,228][INFO ][o.e.c.s.ClusterApplierService] [GNKM43O] added {{Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{nTDc73RKT3GQxtpKNGJFAg}{127.0.0.1}{127.0.0.1:9302},}, reason: apply cluster state (from master [master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{GRsrOXAjQfKPeD2y4dDSBw}{127.0.0.1}{127.0.0.1:9300} committed version [4]])
+[2020-12-22T11:13:32,228][INFO ][o.e.c.s.ClusterApplierService] [Hsh4Uks] detected_master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{GRsrOXAjQfKPeD2y4dDSBw}{127.0.0.1}{127.0.0.1:9300}, added {{7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{GRsrOXAjQfKPeD2y4dDSBw}{127.0.0.1}{127.0.0.1:9300},{GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{nOA-pt1AQ5uGGm54h6Qm7Q}{127.0.0.1}{127.0.0.1:9301},}, reason: apply cluster state (from master [master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{GRsrOXAjQfKPeD2y4dDSBw}{127.0.0.1}{127.0.0.1:9300} committed version [4]])
+[2020-12-22T11:13:32,250][INFO ][o.e.c.s.ClusterApplierService] [7pPltmt] added {{Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{nTDc73RKT3GQxtpKNGJFAg}{127.0.0.1}{127.0.0.1:9302},}, reason: apply cluster state (from master [master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{GRsrOXAjQfKPeD2y4dDSBw}{127.0.0.1}{127.0.0.1:9300} committed version [4] source [zen-disco-node-join[{Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{nTDc73RKT3GQxtpKNGJFAg}{127.0.0.1}{127.0.0.1:9302}]]])
+[2020-12-22T11:13:32,260][INFO ][o.e.h.n.Netty4HttpServerTransport] [Hsh4Uks] publish_address {127.0.0.1:9202}, bound_addresses {[::1]:9202}, {127.0.0.1:9202}
+[2020-12-22T11:13:32,260][INFO ][o.e.n.Node               ] [Hsh4Uks] started
+[2020-12-22T11:14:44,272][INFO ][o.w.a.d.Monitor          ] [7pPltmt] try load config from /usr/local/etc/elasticsearch/analysis-ik/IKAnalyzer.cfg.xml
+[2020-12-22T11:14:44,274][INFO ][o.w.a.d.Monitor          ] [7pPltmt] try load config from /usr/local/var/elasticsearch/plugins/elasticsearch-analysis-ik-6.8.6/config/IKAnalyzer.cfg.xml
+[2020-12-22T11:14:44,580][INFO ][o.e.c.m.MetaDataIndexTemplateService] [7pPltmt] adding template [kibana_index_template:.kibana] for index patterns [.kibana]
+[2020-12-22T11:14:44,641][INFO ][o.e.c.m.MetaDataCreateIndexService] [7pPltmt] [.kibana] creating index, cause [auto(bulk api)], templates [kibana_index_template:.kibana], shards [1]/[1], mappings [doc]
+[2020-12-22T11:14:44,693][INFO ][o.w.a.d.Monitor          ] [Hsh4Uks] try load config from /usr/local/etc/elasticsearch/analysis-ik/IKAnalyzer.cfg.xml
+[2020-12-22T11:14:44,694][INFO ][o.w.a.d.Monitor          ] [Hsh4Uks] try load config from /usr/local/var/elasticsearch/plugins/elasticsearch-analysis-ik-6.8.6/config/IKAnalyzer.cfg.xml
+[2020-12-22T11:14:45,322][INFO ][o.w.a.d.Monitor          ] [GNKM43O] try load config from /usr/local/etc/elasticsearch/analysis-ik/IKAnalyzer.cfg.xml
+[2020-12-22T11:14:45,324][INFO ][o.w.a.d.Monitor          ] [GNKM43O] try load config from /usr/local/var/elasticsearch/plugins/elasticsearch-analysis-ik-6.8.6/config/IKAnalyzer.cfg.xml
+[2020-12-22T11:14:45,947][INFO ][o.e.c.r.a.AllocationService] [7pPltmt] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.kibana][0]] ...]).
+[2020-12-22T11:15:42,007][INFO ][o.e.c.m.MetaDataCreateIndexService] [7pPltmt] [blogs_completion] creating index, cause [api], templates [], shards [5]/[1], mappings [tech]
+[2020-12-22T11:15:42,830][INFO ][o.e.c.r.a.AllocationService] [7pPltmt] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[blogs_completion][0], [blogs_completion][3]] ...]).
+[2020-12-23T15:15:30,330][INFO ][o.e.n.Node               ] [GNKM43O] stopping ...
+[2020-12-23T15:15:30,424][INFO ][o.e.c.s.MasterService    ] [7pPltmt] zen-disco-node-left({GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{nOA-pt1AQ5uGGm54h6Qm7Q}{127.0.0.1}{127.0.0.1:9301}), reason(left)[{GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{nOA-pt1AQ5uGGm54h6Qm7Q}{127.0.0.1}{127.0.0.1:9301} left], reason: removed {{GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{nOA-pt1AQ5uGGm54h6Qm7Q}{127.0.0.1}{127.0.0.1:9301},}
+[2020-12-23T15:15:30,428][INFO ][o.e.n.Node               ] [GNKM43O] stopped
+[2020-12-23T15:15:30,428][INFO ][o.e.n.Node               ] [GNKM43O] closing ...
+[2020-12-23T15:15:30,446][INFO ][o.e.n.Node               ] [GNKM43O] closed
+[2020-12-23T15:15:30,453][INFO ][o.e.c.s.ClusterApplierService] [Hsh4Uks] removed {{GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{nOA-pt1AQ5uGGm54h6Qm7Q}{127.0.0.1}{127.0.0.1:9301},}, reason: apply cluster state (from master [master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{GRsrOXAjQfKPeD2y4dDSBw}{127.0.0.1}{127.0.0.1:9300} committed version [16]])
+[2020-12-23T15:15:30,471][INFO ][o.e.c.s.ClusterApplierService] [7pPltmt] removed {{GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{nOA-pt1AQ5uGGm54h6Qm7Q}{127.0.0.1}{127.0.0.1:9301},}, reason: apply cluster state (from master [master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{GRsrOXAjQfKPeD2y4dDSBw}{127.0.0.1}{127.0.0.1:9300} committed version [16] source [zen-disco-node-left({GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{nOA-pt1AQ5uGGm54h6Qm7Q}{127.0.0.1}{127.0.0.1:9301}), reason(left)[{GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{nOA-pt1AQ5uGGm54h6Qm7Q}{127.0.0.1}{127.0.0.1:9301} left]]])
+[2020-12-23T15:15:30,488][INFO ][o.e.c.r.DelayedAllocationService] [7pPltmt] scheduling reroute for delayed shards in [59.8s] (4 delayed shards)
+[2020-12-23T15:15:30,496][INFO ][o.e.i.s.IndexShard       ] [7pPltmt] [blogs_completion][2] primary-replica resync completed with 0 operations
+[2020-12-23T15:15:31,855][INFO ][o.e.n.Node               ] [Hsh4Uks] stopping ...
+[2020-12-23T15:15:31,873][INFO ][o.e.c.r.a.AllocationService] [7pPltmt] updating number_of_replicas to [0] for indices [.kibana]
+[2020-12-23T15:15:31,880][INFO ][o.e.c.s.MasterService    ] [7pPltmt] zen-disco-node-left({Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{nTDc73RKT3GQxtpKNGJFAg}{127.0.0.1}{127.0.0.1:9302}), reason(left)[{Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{nTDc73RKT3GQxtpKNGJFAg}{127.0.0.1}{127.0.0.1:9302} left], reason: removed {{Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{nTDc73RKT3GQxtpKNGJFAg}{127.0.0.1}{127.0.0.1:9302},}
+[2020-12-23T15:15:31,881][INFO ][o.e.c.s.ClusterApplierService] [7pPltmt] removed {{Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{nTDc73RKT3GQxtpKNGJFAg}{127.0.0.1}{127.0.0.1:9302},}, reason: apply cluster state (from master [master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{GRsrOXAjQfKPeD2y4dDSBw}{127.0.0.1}{127.0.0.1:9300} committed version [17] source [zen-disco-node-left({Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{nTDc73RKT3GQxtpKNGJFAg}{127.0.0.1}{127.0.0.1:9302}), reason(left)[{Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{nTDc73RKT3GQxtpKNGJFAg}{127.0.0.1}{127.0.0.1:9302} left]]])
+[2020-12-23T15:15:31,900][INFO ][o.e.n.Node               ] [Hsh4Uks] stopped
+[2020-12-23T15:15:31,901][INFO ][o.e.n.Node               ] [Hsh4Uks] closing ...
+[2020-12-23T15:15:31,914][INFO ][o.e.n.Node               ] [Hsh4Uks] closed
+[2020-12-23T15:15:36,014][INFO ][o.e.n.Node               ] [7pPltmt] stopping ...
+[2020-12-23T15:15:36,042][INFO ][o.e.n.Node               ] [7pPltmt] stopped
+[2020-12-23T15:15:36,042][INFO ][o.e.n.Node               ] [7pPltmt] closing ...
+[2020-12-23T15:15:36,052][INFO ][o.e.n.Node               ] [7pPltmt] closed
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+[2020-12-23T15:17:17,637][INFO ][o.e.e.NodeEnvironment    ] [Hsh4Uks] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T15:17:17,639][INFO ][o.e.e.NodeEnvironment    ] [Hsh4Uks] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T15:17:17,658][INFO ][o.e.n.Node               ] [Hsh4Uks] node name derived from node ID [Hsh4Uks0QT24bJ-xV3BJ2g]; set [node.name] to override
+[2020-12-23T15:17:17,658][INFO ][o.e.n.Node               ] [Hsh4Uks] version[6.8.6], pid[38136], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T15:17:17,659][INFO ][o.e.n.Node               ] [Hsh4Uks] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-6000349468888835217, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T15:17:17,687][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [Hsh4Uks] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.x.zip]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.x.zip]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:401) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+Caused by: java.nio.file.FileSystemException: /usr/local/Cellar/elasticsearch/6.8.6/libexec/plugins/elasticsearch-analysis-pinyin-6.x.zip/plugin-descriptor.properties: Not a directory
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_201]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_201]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_201]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_201]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:162) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:398) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+[2020-12-23T15:17:17,958][INFO ][o.e.e.NodeEnvironment    ] [GNKM43O] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T15:17:17,960][INFO ][o.e.e.NodeEnvironment    ] [GNKM43O] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T15:17:17,980][INFO ][o.e.n.Node               ] [GNKM43O] node name derived from node ID [GNKM43OhTkSgzK8H7OUOuw]; set [node.name] to override
+[2020-12-23T15:17:17,980][INFO ][o.e.n.Node               ] [GNKM43O] version[6.8.6], pid[38137], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T15:17:17,980][INFO ][o.e.n.Node               ] [GNKM43O] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-3793470296694841886, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T15:17:18,006][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [GNKM43O] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.x.zip]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.x.zip]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:401) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+Caused by: java.nio.file.FileSystemException: /usr/local/Cellar/elasticsearch/6.8.6/libexec/plugins/elasticsearch-analysis-pinyin-6.x.zip/plugin-descriptor.properties: Not a directory
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_201]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_201]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_201]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_201]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:162) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:398) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+[2020-12-23T15:17:18,289][INFO ][o.e.e.NodeEnvironment    ] [7pPltmt] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T15:17:18,291][INFO ][o.e.e.NodeEnvironment    ] [7pPltmt] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T15:17:18,308][INFO ][o.e.n.Node               ] [7pPltmt] node name derived from node ID [7pPltmt3RoCSTlTqH1ePfw]; set [node.name] to override
+[2020-12-23T15:17:18,309][INFO ][o.e.n.Node               ] [7pPltmt] version[6.8.6], pid[38135], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T15:17:18,309][INFO ][o.e.n.Node               ] [7pPltmt] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-1997957440723721805, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T15:17:18,337][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [7pPltmt] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.x.zip]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.x.zip]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:401) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+Caused by: java.nio.file.FileSystemException: /usr/local/Cellar/elasticsearch/6.8.6/libexec/plugins/elasticsearch-analysis-pinyin-6.x.zip/plugin-descriptor.properties: Not a directory
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_201]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_201]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_201]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_201]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:162) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:398) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+[2020-12-23T15:30:47,221][INFO ][o.e.e.NodeEnvironment    ] [7pPltmt] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T15:30:47,223][INFO ][o.e.e.NodeEnvironment    ] [7pPltmt] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T15:30:47,244][INFO ][o.e.n.Node               ] [7pPltmt] node name derived from node ID [7pPltmt3RoCSTlTqH1ePfw]; set [node.name] to override
+[2020-12-23T15:30:47,245][INFO ][o.e.n.Node               ] [7pPltmt] version[6.8.6], pid[39400], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T15:30:47,245][INFO ][o.e.n.Node               ] [7pPltmt] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-7769481928413942747, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T15:30:48,437][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [7pPltmt] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:346) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:531) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:471) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+[2020-12-23T15:30:49,930][INFO ][o.e.e.NodeEnvironment    ] [Hsh4Uks] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T15:30:49,934][INFO ][o.e.e.NodeEnvironment    ] [Hsh4Uks] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T15:30:49,956][INFO ][o.e.n.Node               ] [Hsh4Uks] node name derived from node ID [Hsh4Uks0QT24bJ-xV3BJ2g]; set [node.name] to override
+[2020-12-23T15:30:49,956][INFO ][o.e.n.Node               ] [Hsh4Uks] version[6.8.6], pid[39419], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T15:30:49,957][INFO ][o.e.n.Node               ] [Hsh4Uks] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-6938221902449787731, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T15:30:50,713][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [Hsh4Uks] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:346) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:531) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:471) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+[2020-12-23T15:30:53,198][INFO ][o.e.e.NodeEnvironment    ] [GNKM43O] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T15:30:53,201][INFO ][o.e.e.NodeEnvironment    ] [GNKM43O] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T15:30:53,220][INFO ][o.e.n.Node               ] [GNKM43O] node name derived from node ID [GNKM43OhTkSgzK8H7OUOuw]; set [node.name] to override
+[2020-12-23T15:30:53,220][INFO ][o.e.n.Node               ] [GNKM43O] version[6.8.6], pid[39438], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T15:30:53,221][INFO ][o.e.n.Node               ] [GNKM43O] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-2979205623441124518, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T15:30:53,980][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [GNKM43O] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:346) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:531) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:471) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+[2020-12-23T15:44:42,123][INFO ][o.e.e.NodeEnvironment    ] [7pPltmt] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T15:44:42,126][INFO ][o.e.e.NodeEnvironment    ] [7pPltmt] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T15:44:42,143][INFO ][o.e.n.Node               ] [7pPltmt] node name derived from node ID [7pPltmt3RoCSTlTqH1ePfw]; set [node.name] to override
+[2020-12-23T15:44:42,144][INFO ][o.e.n.Node               ] [7pPltmt] version[6.8.6], pid[39597], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T15:44:42,144][INFO ][o.e.n.Node               ] [7pPltmt] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-3970567293801801403, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T15:44:43,089][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [7pPltmt] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:346) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:531) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:471) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+[2020-12-23T15:44:44,878][INFO ][o.e.e.NodeEnvironment    ] [Hsh4Uks] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T15:44:44,880][INFO ][o.e.e.NodeEnvironment    ] [Hsh4Uks] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T15:44:44,900][INFO ][o.e.n.Node               ] [Hsh4Uks] node name derived from node ID [Hsh4Uks0QT24bJ-xV3BJ2g]; set [node.name] to override
+[2020-12-23T15:44:44,900][INFO ][o.e.n.Node               ] [Hsh4Uks] version[6.8.6], pid[39616], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T15:44:44,900][INFO ][o.e.n.Node               ] [Hsh4Uks] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-7155288487382523380, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T15:44:45,753][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [Hsh4Uks] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:346) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:531) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:471) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+[2020-12-23T15:44:48,005][INFO ][o.e.e.NodeEnvironment    ] [GNKM43O] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T15:44:48,008][INFO ][o.e.e.NodeEnvironment    ] [GNKM43O] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T15:44:48,037][INFO ][o.e.n.Node               ] [GNKM43O] node name derived from node ID [GNKM43OhTkSgzK8H7OUOuw]; set [node.name] to override
+[2020-12-23T15:44:48,038][INFO ][o.e.n.Node               ] [GNKM43O] version[6.8.6], pid[39646], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T15:44:48,038][INFO ][o.e.n.Node               ] [GNKM43O] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-256044239235888580, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T15:44:48,806][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [GNKM43O] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:346) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:531) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:471) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+[2020-12-23T15:47:54,343][INFO ][o.e.e.NodeEnvironment    ] [7pPltmt] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T15:47:54,345][INFO ][o.e.e.NodeEnvironment    ] [7pPltmt] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T15:47:54,363][INFO ][o.e.n.Node               ] [7pPltmt] node name derived from node ID [7pPltmt3RoCSTlTqH1ePfw]; set [node.name] to override
+[2020-12-23T15:47:54,363][INFO ][o.e.n.Node               ] [7pPltmt] version[6.8.6], pid[40018], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T15:47:54,364][INFO ][o.e.n.Node               ] [7pPltmt] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-3074001446828988392, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T15:47:55,237][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [7pPltmt] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:346) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:531) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:471) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+[2020-12-23T15:47:57,389][INFO ][o.e.e.NodeEnvironment    ] [Hsh4Uks] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T15:47:57,392][INFO ][o.e.e.NodeEnvironment    ] [Hsh4Uks] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T15:47:57,409][INFO ][o.e.n.Node               ] [Hsh4Uks] node name derived from node ID [Hsh4Uks0QT24bJ-xV3BJ2g]; set [node.name] to override
+[2020-12-23T15:47:57,409][INFO ][o.e.n.Node               ] [Hsh4Uks] version[6.8.6], pid[40043], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T15:47:57,409][INFO ][o.e.n.Node               ] [Hsh4Uks] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-571128129699307123, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T15:47:58,139][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [Hsh4Uks] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:346) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:531) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:471) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+[2020-12-23T15:48:00,228][INFO ][o.e.e.NodeEnvironment    ] [GNKM43O] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T15:48:00,231][INFO ][o.e.e.NodeEnvironment    ] [GNKM43O] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T15:48:00,248][INFO ][o.e.n.Node               ] [GNKM43O] node name derived from node ID [GNKM43OhTkSgzK8H7OUOuw]; set [node.name] to override
+[2020-12-23T15:48:00,249][INFO ][o.e.n.Node               ] [GNKM43O] version[6.8.6], pid[40071], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T15:48:00,249][INFO ][o.e.n.Node               ] [GNKM43O] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-6654595333832678676, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T15:48:01,021][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [GNKM43O] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalArgumentException: Plugin [analysis-pinyin] was built for Elasticsearch version 6.7.0 but version 6.8.6 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:346) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:531) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:471) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+[2020-12-23T16:54:33,502][INFO ][o.e.e.NodeEnvironment    ] [7pPltmt] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T16:54:33,505][INFO ][o.e.e.NodeEnvironment    ] [7pPltmt] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T16:54:33,525][INFO ][o.e.n.Node               ] [7pPltmt] node name derived from node ID [7pPltmt3RoCSTlTqH1ePfw]; set [node.name] to override
+[2020-12-23T16:54:33,525][INFO ][o.e.n.Node               ] [7pPltmt] version[6.8.6], pid[40562], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T16:54:33,526][INFO ][o.e.n.Node               ] [7pPltmt] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-8858564623101490382, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T16:54:33,560][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [7pPltmt] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.x.zip]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.x.zip]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:401) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+Caused by: java.nio.file.FileSystemException: /usr/local/Cellar/elasticsearch/6.8.6/libexec/plugins/elasticsearch-analysis-pinyin-6.x.zip/plugin-descriptor.properties: Not a directory
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_201]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_201]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_201]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_201]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:162) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:398) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+[2020-12-23T16:54:36,257][INFO ][o.e.e.NodeEnvironment    ] [Hsh4Uks] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T16:54:36,259][INFO ][o.e.e.NodeEnvironment    ] [Hsh4Uks] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T16:54:36,279][INFO ][o.e.n.Node               ] [Hsh4Uks] node name derived from node ID [Hsh4Uks0QT24bJ-xV3BJ2g]; set [node.name] to override
+[2020-12-23T16:54:36,280][INFO ][o.e.n.Node               ] [Hsh4Uks] version[6.8.6], pid[40581], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T16:54:36,280][INFO ][o.e.n.Node               ] [Hsh4Uks] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-3401925067230867683, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T16:54:36,307][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [Hsh4Uks] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.x.zip]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.x.zip]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:401) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+Caused by: java.nio.file.FileSystemException: /usr/local/Cellar/elasticsearch/6.8.6/libexec/plugins/elasticsearch-analysis-pinyin-6.x.zip/plugin-descriptor.properties: Not a directory
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_201]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_201]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_201]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_201]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:162) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:398) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+[2020-12-23T16:54:39,247][INFO ][o.e.e.NodeEnvironment    ] [GNKM43O] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T16:54:39,250][INFO ][o.e.e.NodeEnvironment    ] [GNKM43O] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T16:54:39,267][INFO ][o.e.n.Node               ] [GNKM43O] node name derived from node ID [GNKM43OhTkSgzK8H7OUOuw]; set [node.name] to override
+[2020-12-23T16:54:39,267][INFO ][o.e.n.Node               ] [GNKM43O] version[6.8.6], pid[40600], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T16:54:39,267][INFO ][o.e.n.Node               ] [GNKM43O] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-4817803337361680868, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T16:54:39,298][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [GNKM43O] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.x.zip]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.x.zip]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:401) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+Caused by: java.nio.file.FileSystemException: /usr/local/Cellar/elasticsearch/6.8.6/libexec/plugins/elasticsearch-analysis-pinyin-6.x.zip/plugin-descriptor.properties: Not a directory
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_201]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_201]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_201]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_201]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:162) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:398) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+[2020-12-23T16:58:46,737][INFO ][o.e.e.NodeEnvironment    ] [7pPltmt] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T16:58:46,739][INFO ][o.e.e.NodeEnvironment    ] [7pPltmt] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T16:58:46,757][INFO ][o.e.n.Node               ] [7pPltmt] node name derived from node ID [7pPltmt3RoCSTlTqH1ePfw]; set [node.name] to override
+[2020-12-23T16:58:46,758][INFO ][o.e.n.Node               ] [7pPltmt] version[6.8.6], pid[40732], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T16:58:46,758][INFO ][o.e.n.Node               ] [7pPltmt] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-1026944904234620305, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T16:58:46,787][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [7pPltmt] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.8.6.zip]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.8.6.zip]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:401) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+Caused by: java.nio.file.FileSystemException: /usr/local/Cellar/elasticsearch/6.8.6/libexec/plugins/elasticsearch-analysis-pinyin-6.8.6.zip/plugin-descriptor.properties: Not a directory
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_201]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_201]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_201]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_201]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:162) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:398) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+[2020-12-23T16:58:49,606][INFO ][o.e.e.NodeEnvironment    ] [Hsh4Uks] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T16:58:49,609][INFO ][o.e.e.NodeEnvironment    ] [Hsh4Uks] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T16:58:49,628][INFO ][o.e.n.Node               ] [Hsh4Uks] node name derived from node ID [Hsh4Uks0QT24bJ-xV3BJ2g]; set [node.name] to override
+[2020-12-23T16:58:49,629][INFO ][o.e.n.Node               ] [Hsh4Uks] version[6.8.6], pid[40759], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T16:58:49,629][INFO ][o.e.n.Node               ] [Hsh4Uks] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-48337782201968220, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T16:58:49,658][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [Hsh4Uks] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.8.6.zip]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.8.6.zip]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:401) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+Caused by: java.nio.file.FileSystemException: /usr/local/Cellar/elasticsearch/6.8.6/libexec/plugins/elasticsearch-analysis-pinyin-6.8.6.zip/plugin-descriptor.properties: Not a directory
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_201]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_201]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_201]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_201]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:162) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:398) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+[2020-12-23T16:58:52,549][INFO ][o.e.e.NodeEnvironment    ] [GNKM43O] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.8gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T16:58:52,553][INFO ][o.e.e.NodeEnvironment    ] [GNKM43O] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T16:58:52,576][INFO ][o.e.n.Node               ] [GNKM43O] node name derived from node ID [GNKM43OhTkSgzK8H7OUOuw]; set [node.name] to override
+[2020-12-23T16:58:52,577][INFO ][o.e.n.Node               ] [GNKM43O] version[6.8.6], pid[40788], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T16:58:52,577][INFO ][o.e.n.Node               ] [GNKM43O] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-7435662153525709716, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T16:58:52,612][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [GNKM43O] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.8.6.zip]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:116) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:93) ~[elasticsearch-6.8.6.jar:6.8.6]
+Caused by: java.lang.IllegalStateException: Could not load plugin descriptor for plugin directory [elasticsearch-analysis-pinyin-6.8.6.zip]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:401) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+Caused by: java.nio.file.FileSystemException: /usr/local/Cellar/elasticsearch/6.8.6/libexec/plugins/elasticsearch-analysis-pinyin-6.8.6.zip/plugin-descriptor.properties: Not a directory
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_201]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_201]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_201]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_201]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:162) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.readPluginBundle(PluginsService.java:398) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.findBundles(PluginsService.java:386) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:379) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:151) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:339) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:212) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-6.8.6.jar:6.8.6]
+	... 6 more
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file logs/gc.log due to No such file or directory
+
+[2020-12-23T17:05:40,945][INFO ][o.e.e.NodeEnvironment    ] [7pPltmt] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.7gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T17:05:40,948][INFO ][o.e.e.NodeEnvironment    ] [7pPltmt] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T17:05:40,968][INFO ][o.e.n.Node               ] [7pPltmt] node name derived from node ID [7pPltmt3RoCSTlTqH1ePfw]; set [node.name] to override
+[2020-12-23T17:05:40,968][INFO ][o.e.n.Node               ] [7pPltmt] version[6.8.6], pid[41038], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T17:05:40,969][INFO ][o.e.n.Node               ] [7pPltmt] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-6097691868393142976, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T17:05:41,889][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [aggs-matrix-stats]
+[2020-12-23T17:05:41,890][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [analysis-common]
+[2020-12-23T17:05:41,890][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [ingest-common]
+[2020-12-23T17:05:41,890][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [ingest-geoip]
+[2020-12-23T17:05:41,890][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [ingest-user-agent]
+[2020-12-23T17:05:41,890][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [lang-expression]
+[2020-12-23T17:05:41,890][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [lang-mustache]
+[2020-12-23T17:05:41,890][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [lang-painless]
+[2020-12-23T17:05:41,890][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [mapper-extras]
+[2020-12-23T17:05:41,891][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [parent-join]
+[2020-12-23T17:05:41,891][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [percolator]
+[2020-12-23T17:05:41,891][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [rank-eval]
+[2020-12-23T17:05:41,891][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [reindex]
+[2020-12-23T17:05:41,891][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [repository-url]
+[2020-12-23T17:05:41,891][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [transport-netty4]
+[2020-12-23T17:05:41,891][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded module [tribe]
+[2020-12-23T17:05:41,892][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded plugin [analysis-ik]
+[2020-12-23T17:05:41,892][INFO ][o.e.p.PluginsService     ] [7pPltmt] loaded plugin [analysis-pinyin]
+[2020-12-23T17:05:43,829][INFO ][o.e.e.NodeEnvironment    ] [Hsh4Uks] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.7gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T17:05:43,833][INFO ][o.e.e.NodeEnvironment    ] [Hsh4Uks] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T17:05:43,867][INFO ][o.e.n.Node               ] [Hsh4Uks] node name derived from node ID [Hsh4Uks0QT24bJ-xV3BJ2g]; set [node.name] to override
+[2020-12-23T17:05:43,867][INFO ][o.e.n.Node               ] [Hsh4Uks] version[6.8.6], pid[41061], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T17:05:43,868][INFO ][o.e.n.Node               ] [Hsh4Uks] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-7593832969956950207, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T17:05:44,847][INFO ][o.e.d.DiscoveryModule    ] [7pPltmt] using discovery type [zen] and host providers [settings]
+[2020-12-23T17:05:45,011][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [aggs-matrix-stats]
+[2020-12-23T17:05:45,011][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [analysis-common]
+[2020-12-23T17:05:45,012][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [ingest-common]
+[2020-12-23T17:05:45,012][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [ingest-geoip]
+[2020-12-23T17:05:45,012][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [ingest-user-agent]
+[2020-12-23T17:05:45,012][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [lang-expression]
+[2020-12-23T17:05:45,012][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [lang-mustache]
+[2020-12-23T17:05:45,012][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [lang-painless]
+[2020-12-23T17:05:45,012][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [mapper-extras]
+[2020-12-23T17:05:45,012][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [parent-join]
+[2020-12-23T17:05:45,012][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [percolator]
+[2020-12-23T17:05:45,013][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [rank-eval]
+[2020-12-23T17:05:45,013][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [reindex]
+[2020-12-23T17:05:45,013][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [repository-url]
+[2020-12-23T17:05:45,013][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [transport-netty4]
+[2020-12-23T17:05:45,013][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded module [tribe]
+[2020-12-23T17:05:45,013][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded plugin [analysis-ik]
+[2020-12-23T17:05:45,014][INFO ][o.e.p.PluginsService     ] [Hsh4Uks] loaded plugin [analysis-pinyin]
+[2020-12-23T17:05:45,546][INFO ][o.e.n.Node               ] [7pPltmt] initialized
+[2020-12-23T17:05:45,546][INFO ][o.e.n.Node               ] [7pPltmt] starting ...
+[2020-12-23T17:05:47,947][INFO ][o.e.d.DiscoveryModule    ] [Hsh4Uks] using discovery type [zen] and host providers [settings]
+[2020-12-23T17:05:48,388][INFO ][o.e.n.Node               ] [Hsh4Uks] initialized
+[2020-12-23T17:05:48,389][INFO ][o.e.n.Node               ] [Hsh4Uks] starting ...
+[2020-12-23T17:05:50,755][INFO ][o.e.t.TransportService   ] [7pPltmt] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2020-12-23T17:05:53,619][INFO ][o.e.t.TransportService   ] [Hsh4Uks] publish_address {127.0.0.1:9301}, bound_addresses {[::1]:9301}, {127.0.0.1:9301}
+[2020-12-23T17:05:53,836][INFO ][o.e.c.s.MasterService    ] [7pPltmt] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{l3MuVhO5QKGx43jiaNTrJw}{127.0.0.1}{127.0.0.1:9300}
+[2020-12-23T17:05:53,841][INFO ][o.e.c.s.ClusterApplierService] [7pPltmt] new_master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{l3MuVhO5QKGx43jiaNTrJw}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{l3MuVhO5QKGx43jiaNTrJw}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2020-12-23T17:05:53,860][INFO ][o.e.h.n.Netty4HttpServerTransport] [7pPltmt] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2020-12-23T17:05:53,860][INFO ][o.e.n.Node               ] [7pPltmt] started
+[2020-12-23T17:05:53,888][INFO ][o.w.a.d.Monitor          ] [7pPltmt] try load config from /usr/local/etc/elasticsearch/analysis-ik/IKAnalyzer.cfg.xml
+[2020-12-23T17:05:53,890][INFO ][o.w.a.d.Monitor          ] [7pPltmt] try load config from /usr/local/var/elasticsearch/plugins/elasticsearch-analysis-ik-6.8.6/config/IKAnalyzer.cfg.xml
+[2020-12-23T17:05:54,301][INFO ][o.e.g.GatewayService     ] [7pPltmt] recovered [2] indices into cluster_state
+[2020-12-23T17:05:55,065][WARN ][r.suppressed             ] [7pPltmt] path: /.kibana/doc/config%3A6.8.6, params: {index=.kibana, id=config:6.8.6, type=doc}
+org.elasticsearch.action.NoShardAvailableActionException: No shard available for [get [.kibana][doc][config:6.8.6]: routing [null]]
+	at org.elasticsearch.action.support.single.shard.TransportSingleShardAction$AsyncSingleAction.perform(TransportSingleShardAction.java:230) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.action.support.single.shard.TransportSingleShardAction$AsyncSingleAction.start(TransportSingleShardAction.java:209) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.action.support.single.shard.TransportSingleShardAction.doExecute(TransportSingleShardAction.java:100) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.action.support.single.shard.TransportSingleShardAction.doExecute(TransportSingleShardAction.java:62) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.action.support.TransportAction.doExecute(TransportAction.java:143) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:167) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:139) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:81) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.client.node.NodeClient.executeLocally(NodeClient.java:87) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:76) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:403) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.client.support.AbstractClient.get(AbstractClient.java:502) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.rest.action.document.RestGetAction.lambda$prepareRequest$0(RestGetAction.java:81) ~[elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:115) [elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:240) [elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.rest.RestController.tryAllHandlers(RestController.java:336) [elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:174) [elasticsearch-6.8.6.jar:6.8.6]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.dispatchRequest(Netty4HttpServerTransport.java:551) [transport-netty4-client-6.8.6.jar:6.8.6]
+	at org.elasticsearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:137) [transport-netty4-client-6.8.6.jar:6.8.6]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at org.elasticsearch.http.netty4.pipelining.HttpPipeliningHandler.channelRead(HttpPipeliningHandler.java:68) [transport-netty4-client-6.8.6.jar:6.8.6]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) [netty-codec-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) [netty-codec-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297) [netty-codec-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:656) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:556) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:510) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:470) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:909) [netty-common-4.1.32.Final.jar:4.1.32.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+[2020-12-23T17:05:56,811][INFO ][o.e.c.r.a.AllocationService] [7pPltmt] updating number_of_replicas to [1] for indices [.kibana]
+[2020-12-23T17:05:56,826][INFO ][o.e.c.s.MasterService    ] [7pPltmt] zen-disco-node-join[{Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{NNY4RqO-QLCeA4GcYpZ0ug}{127.0.0.1}{127.0.0.1:9301}], reason: added {{Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{NNY4RqO-QLCeA4GcYpZ0ug}{127.0.0.1}{127.0.0.1:9301},}
+[2020-12-23T17:05:56,852][INFO ][o.e.c.s.ClusterApplierService] [Hsh4Uks] detected_master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{l3MuVhO5QKGx43jiaNTrJw}{127.0.0.1}{127.0.0.1:9300}, added {{7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{l3MuVhO5QKGx43jiaNTrJw}{127.0.0.1}{127.0.0.1:9300},}, reason: apply cluster state (from master [master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{l3MuVhO5QKGx43jiaNTrJw}{127.0.0.1}{127.0.0.1:9300} committed version [7]])
+[2020-12-23T17:05:56,879][INFO ][o.e.c.s.ClusterApplierService] [7pPltmt] added {{Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{NNY4RqO-QLCeA4GcYpZ0ug}{127.0.0.1}{127.0.0.1:9301},}, reason: apply cluster state (from master [master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{l3MuVhO5QKGx43jiaNTrJw}{127.0.0.1}{127.0.0.1:9300} committed version [7] source [zen-disco-node-join[{Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{NNY4RqO-QLCeA4GcYpZ0ug}{127.0.0.1}{127.0.0.1:9301}]]])
+[2020-12-23T17:05:56,884][WARN ][o.e.d.z.ElectMasterService] [7pPltmt] value for setting "discovery.zen.minimum_master_nodes" is too low. This can result in data loss! Please set it to at least a quorum of master-eligible nodes (current value: [-1], total number of master-eligible nodes used for publishing in this round: [2])
+[2020-12-23T17:05:56,897][INFO ][o.e.h.n.Netty4HttpServerTransport] [Hsh4Uks] publish_address {127.0.0.1:9201}, bound_addresses {[::1]:9201}, {127.0.0.1:9201}
+[2020-12-23T17:05:56,897][INFO ][o.e.n.Node               ] [Hsh4Uks] started
+[2020-12-23T17:05:56,937][INFO ][o.w.a.d.Monitor          ] [Hsh4Uks] try load config from /usr/local/etc/elasticsearch/analysis-ik/IKAnalyzer.cfg.xml
+[2020-12-23T17:05:56,938][INFO ][o.w.a.d.Monitor          ] [Hsh4Uks] try load config from /usr/local/var/elasticsearch/plugins/elasticsearch-analysis-ik-6.8.6/config/IKAnalyzer.cfg.xml
+[2020-12-23T17:05:57,435][INFO ][o.e.c.r.a.AllocationService] [7pPltmt] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blogs_completion][4], [.kibana][0]] ...]).
+[2020-12-23T17:05:58,190][INFO ][o.e.c.r.a.AllocationService] [7pPltmt] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[blogs_completion][2]] ...]).
+[2020-12-23T17:06:44,375][INFO ][o.e.e.NodeEnvironment    ] [GNKM43O] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [355.7gb], net total_space [465.7gb], types [apfs]
+[2020-12-23T17:06:44,378][INFO ][o.e.e.NodeEnvironment    ] [GNKM43O] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-23T17:06:44,395][INFO ][o.e.n.Node               ] [GNKM43O] node name derived from node ID [GNKM43OhTkSgzK8H7OUOuw]; set [node.name] to override
+[2020-12-23T17:06:44,396][INFO ][o.e.n.Node               ] [GNKM43O] version[6.8.6], pid[41086], build[oss/tar/3d9f765/2019-12-13T17:11:52.013738Z], OS[Mac OS X/10.15.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2020-12-23T17:06:44,396][INFO ][o.e.n.Node               ] [GNKM43O] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/06/74k377p15gl6jqngq3x9zn280000gn/T/elasticsearch-7064184430444903954, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/usr/local/Cellar/elasticsearch/6.8.6/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=oss, -Des.distribution.type=tar]
+[2020-12-23T17:06:45,168][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [aggs-matrix-stats]
+[2020-12-23T17:06:45,169][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [analysis-common]
+[2020-12-23T17:06:45,169][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [ingest-common]
+[2020-12-23T17:06:45,169][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [ingest-geoip]
+[2020-12-23T17:06:45,169][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [ingest-user-agent]
+[2020-12-23T17:06:45,169][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [lang-expression]
+[2020-12-23T17:06:45,169][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [lang-mustache]
+[2020-12-23T17:06:45,169][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [lang-painless]
+[2020-12-23T17:06:45,170][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [mapper-extras]
+[2020-12-23T17:06:45,170][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [parent-join]
+[2020-12-23T17:06:45,170][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [percolator]
+[2020-12-23T17:06:45,170][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [rank-eval]
+[2020-12-23T17:06:45,170][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [reindex]
+[2020-12-23T17:06:45,170][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [repository-url]
+[2020-12-23T17:06:45,170][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [transport-netty4]
+[2020-12-23T17:06:45,170][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded module [tribe]
+[2020-12-23T17:06:45,171][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded plugin [analysis-ik]
+[2020-12-23T17:06:45,171][INFO ][o.e.p.PluginsService     ] [GNKM43O] loaded plugin [analysis-pinyin]
+[2020-12-23T17:06:47,535][INFO ][o.e.d.DiscoveryModule    ] [GNKM43O] using discovery type [zen] and host providers [settings]
+[2020-12-23T17:06:47,953][INFO ][o.e.n.Node               ] [GNKM43O] initialized
+[2020-12-23T17:06:47,953][INFO ][o.e.n.Node               ] [GNKM43O] starting ...
+[2020-12-23T17:06:53,079][INFO ][o.e.t.TransportService   ] [GNKM43O] publish_address {127.0.0.1:9302}, bound_addresses {[::1]:9302}, {127.0.0.1:9302}
+[2020-12-23T17:06:56,187][INFO ][o.e.c.s.MasterService    ] [7pPltmt] zen-disco-node-join[{GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{vh9gq5pqT1mACUwkicihYA}{127.0.0.1}{127.0.0.1:9302}], reason: added {{GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{vh9gq5pqT1mACUwkicihYA}{127.0.0.1}{127.0.0.1:9302},}
+[2020-12-23T17:06:56,190][INFO ][o.e.c.s.ClusterApplierService] [Hsh4Uks] added {{GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{vh9gq5pqT1mACUwkicihYA}{127.0.0.1}{127.0.0.1:9302},}, reason: apply cluster state (from master [master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{l3MuVhO5QKGx43jiaNTrJw}{127.0.0.1}{127.0.0.1:9300} committed version [15]])
+[2020-12-23T17:06:56,197][INFO ][o.e.c.s.ClusterApplierService] [GNKM43O] detected_master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{l3MuVhO5QKGx43jiaNTrJw}{127.0.0.1}{127.0.0.1:9300}, added {{Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{NNY4RqO-QLCeA4GcYpZ0ug}{127.0.0.1}{127.0.0.1:9301},{7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{l3MuVhO5QKGx43jiaNTrJw}{127.0.0.1}{127.0.0.1:9300},}, reason: apply cluster state (from master [master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{l3MuVhO5QKGx43jiaNTrJw}{127.0.0.1}{127.0.0.1:9300} committed version [15]])
+[2020-12-23T17:06:56,249][INFO ][o.w.a.d.Monitor          ] [GNKM43O] try load config from /usr/local/etc/elasticsearch/analysis-ik/IKAnalyzer.cfg.xml
+[2020-12-23T17:06:56,250][INFO ][o.w.a.d.Monitor          ] [GNKM43O] try load config from /usr/local/var/elasticsearch/plugins/elasticsearch-analysis-ik-6.8.6/config/IKAnalyzer.cfg.xml
+[2020-12-23T17:06:56,579][INFO ][o.e.c.s.ClusterApplierService] [7pPltmt] added {{GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{vh9gq5pqT1mACUwkicihYA}{127.0.0.1}{127.0.0.1:9302},}, reason: apply cluster state (from master [master {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{l3MuVhO5QKGx43jiaNTrJw}{127.0.0.1}{127.0.0.1:9300} committed version [15] source [zen-disco-node-join[{GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{vh9gq5pqT1mACUwkicihYA}{127.0.0.1}{127.0.0.1:9302}]]])
+[2020-12-23T17:06:56,592][INFO ][o.e.h.n.Netty4HttpServerTransport] [GNKM43O] publish_address {127.0.0.1:9202}, bound_addresses {[::1]:9202}, {127.0.0.1:9202}
+[2020-12-23T17:06:56,592][INFO ][o.e.n.Node               ] [GNKM43O] started
+[2020-12-23T17:12:55,921][INFO ][o.e.c.m.MetaDataCreateIndexService] [7pPltmt] [index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2020-12-23T17:12:56,610][INFO ][o.e.c.r.a.AllocationService] [7pPltmt] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[index][3]] ...]).
+[2020-12-24T10:40:46,579][INFO ][o.e.c.m.MetaDataDeleteIndexService] [7pPltmt] [blogs_completion/HDZdsm1MSV2Ioja79C4s-g] deleting index
+[2020-12-24T10:46:13,481][INFO ][o.e.c.m.MetaDataCreateIndexService] [7pPltmt] [blogs_completion] creating index, cause [api], templates [], shards [2]/[1], mappings [tech]
+[2020-12-24T10:46:13,813][INFO ][o.e.c.r.a.AllocationService] [7pPltmt] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[blogs_completion][1]] ...]).
+[2020-12-24T10:47:36,236][INFO ][o.e.c.m.MetaDataDeleteIndexService] [7pPltmt] [blogs_completion/2J9lKKCnRFK1spILnlhRhQ] deleting index
+[2020-12-24T10:47:37,418][INFO ][o.e.c.m.MetaDataCreateIndexService] [7pPltmt] [blogs_completion] creating index, cause [api], templates [], shards [2]/[1], mappings [tech]
+[2020-12-24T10:47:37,519][INFO ][o.e.c.r.a.AllocationService] [7pPltmt] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[blogs_completion][1]] ...]).
+[2020-12-24T10:48:33,006][INFO ][o.e.c.m.MetaDataDeleteIndexService] [7pPltmt] [blogs_completion/XYY8b_rlSaiX6-gEf6Slbw] deleting index
+[2020-12-24T10:48:34,207][INFO ][o.e.c.m.MetaDataCreateIndexService] [7pPltmt] [blogs_completion] creating index, cause [api], templates [], shards [2]/[1], mappings [tech]
+[2020-12-24T10:48:34,305][INFO ][o.e.c.r.a.AllocationService] [7pPltmt] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[blogs_completion][1]] ...]).
+[2020-12-24T10:49:09,473][INFO ][o.e.c.m.MetaDataDeleteIndexService] [7pPltmt] [blogs_completion/frefurVURcOnD_Ns-AHjKQ] deleting index
+[2020-12-24T10:49:10,770][INFO ][o.e.c.m.MetaDataCreateIndexService] [7pPltmt] [blogs_completion] creating index, cause [api], templates [], shards [2]/[1], mappings [tech]
+[2020-12-24T10:49:10,870][INFO ][o.e.c.r.a.AllocationService] [7pPltmt] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[blogs_completion][0]] ...]).
+[2020-12-24T10:57:55,404][INFO ][o.e.c.m.MetaDataDeleteIndexService] [7pPltmt] [blogs_completion/J7aIyn4CQvaNocdSZjgVZg] deleting index
+[2020-12-24T10:57:56,654][INFO ][o.e.c.m.MetaDataCreateIndexService] [7pPltmt] [blogs_completion] creating index, cause [api], templates [], shards [2]/[1], mappings [tech]
+[2020-12-24T10:57:56,763][INFO ][o.e.c.r.a.AllocationService] [7pPltmt] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[blogs_completion][1]] ...]).
+[2020-12-24T23:37:27,833][INFO ][o.e.n.Node               ] [7pPltmt] stopping ...
+[2020-12-24T23:37:27,836][INFO ][o.e.n.Node               ] [GNKM43O] stopping ...
+[2020-12-24T23:37:27,836][INFO ][o.e.n.Node               ] [Hsh4Uks] stopping ...
+[2020-12-24T23:37:27,884][INFO ][o.e.d.z.ZenDiscovery     ] [GNKM43O] master_left [{7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{l3MuVhO5QKGx43jiaNTrJw}{127.0.0.1}{127.0.0.1:9300}], reason [shut_down]
+[2020-12-24T23:37:27,882][INFO ][o.e.d.z.ZenDiscovery     ] [Hsh4Uks] master_left [{7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{l3MuVhO5QKGx43jiaNTrJw}{127.0.0.1}{127.0.0.1:9300}], reason [shut_down]
+[2020-12-24T23:37:27,885][WARN ][o.e.d.z.ZenDiscovery     ] [GNKM43O] master left (reason = shut_down), current nodes: nodes: 
+   {Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{NNY4RqO-QLCeA4GcYpZ0ug}{127.0.0.1}{127.0.0.1:9301}
+   {GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{vh9gq5pqT1mACUwkicihYA}{127.0.0.1}{127.0.0.1:9302}, local
+   {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{l3MuVhO5QKGx43jiaNTrJw}{127.0.0.1}{127.0.0.1:9300}, master
+
+[2020-12-24T23:37:27,886][WARN ][o.e.d.z.ZenDiscovery     ] [Hsh4Uks] master left (reason = shut_down), current nodes: nodes: 
+   {7pPltmt}{7pPltmt3RoCSTlTqH1ePfw}{l3MuVhO5QKGx43jiaNTrJw}{127.0.0.1}{127.0.0.1:9300}, master
+   {GNKM43O}{GNKM43OhTkSgzK8H7OUOuw}{vh9gq5pqT1mACUwkicihYA}{127.0.0.1}{127.0.0.1:9302}
+   {Hsh4Uks}{Hsh4Uks0QT24bJ-xV3BJ2g}{NNY4RqO-QLCeA4GcYpZ0ug}{127.0.0.1}{127.0.0.1:9301}, local
+
+[2020-12-24T23:37:27,900][WARN ][o.e.t.OutboundHandler    ] [Hsh4Uks] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:9301, remoteAddress=/127.0.0.1:50576}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[?:?]
+[2020-12-24T23:37:27,902][WARN ][o.e.t.OutboundHandler    ] [GNKM43O] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:9302, remoteAddress=/127.0.0.1:50620}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[?:?]
+[2020-12-24T23:37:27,925][INFO ][o.e.n.Node               ] [7pPltmt] stopped
+[2020-12-24T23:37:27,927][INFO ][o.e.n.Node               ] [7pPltmt] closing ...
+[2020-12-24T23:37:27,954][INFO ][o.e.n.Node               ] [7pPltmt] closed
+[2020-12-24T23:37:27,970][INFO ][o.e.n.Node               ] [GNKM43O] stopped
+[2020-12-24T23:37:27,970][INFO ][o.e.n.Node               ] [GNKM43O] closing ...
+[2020-12-24T23:37:27,971][INFO ][o.e.n.Node               ] [Hsh4Uks] stopped
+[2020-12-24T23:37:27,971][INFO ][o.e.n.Node               ] [Hsh4Uks] closing ...
+[2020-12-24T23:37:27,988][INFO ][o.e.n.Node               ] [Hsh4Uks] closed
+[2020-12-24T23:37:27,988][INFO ][o.e.n.Node               ] [GNKM43O] closed
